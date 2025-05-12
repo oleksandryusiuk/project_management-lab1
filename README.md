@@ -5,9 +5,9 @@
 Це простий калькулятор з графічним інтерфейсом користувача (GUI), який дозволяє виконувати чотири базові арифметичні операції:
 Додавання, Віднімання, Множення і Ділення.
 
-**Скомпілювати:**
+**Скомпілювати і запустити:**
    ```bash
-   mvn clean compile
-**Запустити:**
-   ```bash
-   mvn exec:java -Dexec.mainClass="com.example.calculator.CalculatorApp"
+   mvn compile
+   java -cp target/classes com.example.calculator.CalculatorApp
+   ```
+
